@@ -51,6 +51,11 @@ body > address {
 
 /* Navigation Styles */
 
+nav > ul {
+   list-style: none;
+   line-height: 2em;
+   font-size: .9em;
+}
 
 
 
