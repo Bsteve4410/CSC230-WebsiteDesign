@@ -60,6 +60,9 @@ nav > ul > li > a:link, nav > ul > li > a:visited {
    color: rgb(43, 59, 125);
    text-decoration: none;
 }
+nav > ul > li > a:hover, nav > ul > li > a:active {
+   color: rgb(212, 35, 35);
+}
 
 /* Article Styles */
 
