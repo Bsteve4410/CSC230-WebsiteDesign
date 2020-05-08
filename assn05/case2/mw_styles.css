@@ -21,7 +21,7 @@ html
 }
  body {
    
-   background-color: ivory;
+   background-color: rgb(227,210,173);
    
    font-family: 'Century Gothic', sans-serif;
  }
@@ -34,6 +34,7 @@ body > footer address {
 body > address {
    font: normal;
    font-size: .9em;
+   
    text-align: center;
    padding-top: 10px;
    padding-bottom: 10px;
@@ -52,6 +53,7 @@ body > address {
 /* Navigation Styles */
 
 nav > ul {
+   
    list-style: none;
    line-height: 2em;
    font-size: .9em;
