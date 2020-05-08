@@ -80,7 +80,9 @@ article.tour_summary p:first-of-type > :first-line{
 
 
 /* Aside Styles */
-
+aside.tour_itinerary h1{
+   font-size: 1.2em;
+}
 
 
 /* Blockquote Styles */
