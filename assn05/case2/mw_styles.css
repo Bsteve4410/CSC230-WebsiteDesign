@@ -101,3 +101,9 @@ blockquote {
    color: rgb(255, 255, 255);
    opacity: .65;
 }
+blockquote p {
+   padding-bottom: 2.5px;
+   scroll-padding-top: 2.5px;
+   padding-left: 10px;
+   padding-right: 10px;
+}
