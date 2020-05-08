@@ -16,6 +16,7 @@
 
 
 /* Structural Styles */
+
 html 
    { background-color: rgb(173, 189, 227)
 }
@@ -52,18 +53,20 @@ body > address {
 
 /* Navigation Styles */
 
-nav > ul {
-   
-   list-style: none;
+nav > ul > li {
+   marker: none;
    line-height: 2em;
    font-size: .9em;
 }
-nav > ul > li > a:link, nav > ul > li > a:visited {
+
+nav > ul > li > a:visited {
    color: rgb(43, 59, 125);
-   text-decoration: none;
+   text-decoration-line: none;
+   
 }
 nav > ul > li > a:hover, nav > ul > li > a:active {
    color: rgb(212, 35, 35);
+   text-decoration-line: none;
 }
 
 /* Article Styles */
