@@ -20,8 +20,54 @@
 
 /* Grid Columns Styles */
 
+section.row > div {
+   width: 100%;
+   float: none;
+   }
+   section.class > div {
+      float: left;
+   }
+   section.column100 > div {
+      width: 100%;
+   }
+   section.column50 > div {
+      width: 50%;
+   }
+   section.column33 > div {
+      width: 33%;
+   }
+   section.column67 > div {
+      width: 67%;
+   }
+   section.column25 > div {
+      width: 25%;
+   }
+   section.column75 > div {
+      width: 75%;
+   }
+   section.column20 > div {
+      width: 20%
+   }
+   section.column40 > div {
+      width: 40%;
+   }
+   section.column60 > div {
+      width: 60%;
+   }
+   section.column80 > div {
+      width: 80%;
+   }
 
 
 
 /* Grid Spacing Styles */
 
+section.container > div > {
+   box-sizing: border-box;
+}
+section.row > div {
+   box-sizing: border-box;
+}
+section.classes > div {
+   box-sizing: border-box;
+}
