@@ -59,3 +59,9 @@ section.cell {
 }
 
 /* Footer Styles */
+footer {
+   position: absolute;
+   font: rgb(143, 33, 36);
+   text-align: right;
+   font-size: 2vmin;
+}
