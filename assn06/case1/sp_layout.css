@@ -15,17 +15,55 @@
 
 /* Window and Body Styles */
 
+html {
+   height: 100%;
+}
 
+body{
+   width: 95%;
+   min-width: 640;
+   max-width: 960;
+   text-align: center;
+   min-height: 100%;
+}
+header, ul,  nav, li, a  {
+   box-sizing: border-box;
+}
+ul{
+   box-sizing: border-box;
+}
+nav {
+   box-sizing: border-box;
+}
+li{
+   box-sizing: border-box;
+}
+a{
+   box-sizing: border-box;
+}
 
 
 /* Row Styles */
 
+section.row {
+   grid-row: span;
+}
 
 
 
 
 /* Page Header Styles */
 
+body > header{
+width: 70%;
+float: left;
+}
+body header > nav {
+   float: left;
+   padding-left: 2%;
+   padding-right: 2%;
+   width: 30%;
+}
 
 
 
