@@ -15,18 +15,45 @@
 
 /* HTML Styles */
 
-
+html {
+   background-image: url(tb_back5.png);
+}
 
 /* Page Body Styles */
 
+body {
+   border-left: 3px rgb(169, 130, 88) solid;
+   border-right: 3px  rgb(169, 130, 88) solid; 
+   box-shadow: 25px;
+   offset-position: vertical;
+   offset: 35px;
+   color: rgb(53, 21, 0);
+}
 
 
 /* Main Styles */
-
+header h1 {
+   text-shadow: rgb(221, 221, 221) 1px;
+   text-shadow: rgb(41, 41, 41, 0.9) 5px, 20px;
+}
+main {
+   background-image: url(tb_back7.png);
+   size: 100% cover;
+   box-shadow: inset rgb(71, 71, 71) -10px;
+   box-shadow: inset rgb(71, 71, 71) 10px;
+   
+}
 
 
 /* Figure Box Styles */
 
+figure {
+   margin-top: 10px;
+   margin-bottom: 10px;
+   margin-left: auto;
+   margin-right: auto;
+   width: 70%;
+}
 
 
 /* Article Styles */
