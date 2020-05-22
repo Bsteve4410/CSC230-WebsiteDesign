@@ -54,11 +54,34 @@ figure {
    margin-right: auto;
    width: 70%;
 }
-
+image {
+   border-width: 25px;
+   border-style: solid;
+   border-image: url(tb_frame.png);
+   size: 60px slice stretch;
+   block-size: 100%;
+}
+caption {
+   font-family: 'Palatino Linotype', Palatino, 'Times New Roma',serif;
+   font-style: italic;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 0px;
+   padding-right: 0px;
+   text-align: center;
+}
 
 /* Article Styles */
-
-
+article {
+     
+      background-image: url(tb_back6.png) bottom right 15%;
+      border: double 8px rgb(147, 116, 68) right bottom;
+      
+}
 
 /* Footer Styles */
 
+footer {
+   background: linear-gradient(180, 148, 104);
+
+}
