@@ -74,8 +74,12 @@ caption {
 /* Article Styles */
 article {
      
-      background-image: url(tb_back6.png) bottom right 15%;
-      border: double 8px rgb(147, 116, 68) right bottom;
+      background-image: url(tb_back6.png);
+      background-position: right bottom;
+      background-size: 15%;
+      background-repeat: no-repeat;
+      border-bottom-right-radius: 80px;
+      border: 8px double rgb(147, 116, 68);
       
 }
 
