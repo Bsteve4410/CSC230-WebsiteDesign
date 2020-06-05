@@ -51,6 +51,17 @@ article {
  flex-shrink: 1;
  flex-basis: 351;
 }
+aside {
+ flex-grow: 1;
+ flex-shrink: 2;
+ flex-basis: 250;
+}
+section#navicon ul {
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+
+}
 
 
 /* ===============================
@@ -58,8 +69,26 @@ article {
    ===============================
 */
 	
+@media screen and (device-width: 480px) {
+   ul.vertical {
+      flex-flow: column;
+      height: 240px;
+   }
+   
+   section.left {
+    flex: 99;
+   }
+   body footer {
+    flex: 100;
+   }
+}
 
-
+a#navicon {
+   display: block;
+}
+a#navicon:hover+ul, nav.horizontal ul:hover {
+   display: block;
+}
 
 
 /* ============================================
