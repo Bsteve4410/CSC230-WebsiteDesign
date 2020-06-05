@@ -30,8 +30,27 @@ body {
    flex-flow: row wrap;
 }
 
+section#left {
+ flex-grow: 1;
+ flex-shrink: 8;
+ flex-basis: 130;
+}
 
+section#right {
+ flex-grow: 8;
+ flex-shrink: 1;
+ flex-basis: 351;
+}
 
+section#tips {
+flex-flow: row wrap;
+}
+
+article {
+ flex-grow: 2;
+ flex-shrink: 1;
+ flex-basis: 351;
+}
 
 
 /* ===============================
