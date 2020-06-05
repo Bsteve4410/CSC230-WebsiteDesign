@@ -19,14 +19,23 @@
 
 /* Hidden Objects */
 
+nav.horizontal, nav.vertical {
+   display: none;
+}
 
 
 /* Page Box Styles */
-
+@page {
+   size: 8.5in 11in;
+   margin: 0.5in;
+}
 
 
 /* Header Styles */
-
+header img {
+   display: block;
+   width: 100%;
+}
 
 
 /* Typography Styles */

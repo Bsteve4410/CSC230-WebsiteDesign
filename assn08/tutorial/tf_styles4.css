@@ -96,5 +96,11 @@ a#navicon:hover+ul, nav.horizontal ul:hover {
    ============================================
 */
 
+@media screen and (device-width: 481px) {
 
+ ul.horizontal{
+    height: 160px;
 
+}
+
+}
