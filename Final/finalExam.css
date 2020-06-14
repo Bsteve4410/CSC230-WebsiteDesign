@@ -20,6 +20,9 @@
      margin: auto;
      background-color: rgb(70, 82, 70);
  }
+ header {
+   background-color: rgb(225, 247, 225);
+ }
 
 header  h1 {
   font-size: 36pt;
@@ -65,11 +68,12 @@ h1 {
  table {
    border: none;
  }
-section {
+section#Assignments {
   margin-left: 50%;
   background-color: rgb(157, 216, 157);
 }
-section.AboutMe {
+section#AboutMe {
+  margin-left: 50%;
  background-color: grey;
 }
 nav {
@@ -79,5 +83,5 @@ nav {
   width: 25%;
   margin: 0px;
   padding: 0px;
-  height: auto;
+  height: 200px;
 }
