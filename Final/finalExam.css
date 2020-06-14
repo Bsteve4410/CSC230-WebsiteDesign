@@ -67,10 +67,13 @@ h1 {
  }
 section {
   margin-left: 50%;
-  background-color: rosybrown;
+  background-color: rgb(157, 216, 157);
+}
+section.AboutMe {
+ background-color: grey;
 }
 nav {
-  background-color: seashell;
+  background-color: rgb(157, 216, 157);
   font: rgb(black);
   text-align: center top;
   width: 25%;
